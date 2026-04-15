@@ -24,14 +24,18 @@ Pour le cas du sabot infini, l'esperance de gain ne dépend seulement des cartes
 
 Plusieurs calculs d'estimateurs sont effectués pour confronter les résultats théoriques dont l'esperance et variance empirique de gains, la distribution.
 
-<img src="monte_carlo_simulation_files/monte_carlo_pi.png" width="500"/>
+<img src="monte_carlo_simulation_files/monte_carlo_pi.png" width="800"/>
 
 <img src="monte_carlo_simulation_files/convergence.png" width="500"/>
 
 
 ### Problème de ruine du joueur : 
- Il peut également être pertinent pour le joueur de s'interroger sur ses probabilités de ruine et de réussite.
-Etant donnée une politique $\pi$, une mise constante $\alpha \in \mathbb{R}_+$, un capital de départ $a \in \mathbb{R}_+^*$, et un objectif de gain $b \in \mathbb{R}_+^*$.
+ Il peut également être pertinent pour le joueur de s'interroger sur ses probabilités de ruine et de réussite. Etant donnée :
+
+```math
+\pi \text{ une politique}, \quad \alpha \in \mathbb{R}_+ \text{ une mise constante}, \quad a \in \mathbb{R}_+^* \text{ un capital de départ}, \quad b \in \mathbb{R}_+^* \text{ un objectif de gain}
+```
+
 Quelle est la probabilité de ruine ou de réussite du joueur ?
 
 
