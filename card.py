@@ -16,3 +16,13 @@ class Card:
             return 11
         else:
             return int(self.rank)
+
+    @property
+    def counting_value(self):
+        if self.rank in ['2', '3', '4', '5', '6'] :
+            return 1
+        elif self.rank in ['7', '8', '9'] :
+            return 0
+        else : 
+            return -1
+

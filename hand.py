@@ -9,6 +9,8 @@ class Hand:
     def add_card(self, card):
         self.cards.append(card)
 
+    ## Marche bien
+    # Renvoie la Max value de la main
     @property
     def value(self):
         total = sum(card.value for card in self.cards)
@@ -18,8 +20,11 @@ class Hand:
             aces -= 1
         return total
 
+
+    ## Marche bien
+    # Renvoie la liste des valeurs possible dans le cas ou un AS est présent
     @property
-    def value_ace(self):
+    def values_possible(self):
         values = [0]
         for card in self.cards:
             if card.rank == 'A':
@@ -43,3 +48,8 @@ class Hand:
 
     def is_blackjack(self):
         return len(self.cards) == 2 and self.value == 21
+    
+   
+        
+
+
