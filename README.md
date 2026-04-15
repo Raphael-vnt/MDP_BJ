@@ -5,7 +5,7 @@ Le jeu est formulé comme un processus de décision markovien, dans lequel le jo
 
 Une première partie est consacrée à la construction formelle du modèle probabiliste, incluant la définition des variables aléatoires, des transitions d’état et des résultats absorbants du jeu. Les équations d’optimalité de Bellman sont ensuite résolues par programmation dynamique afin de déterminer une politique optimale pour le cas s'un sabot infini puis fini.
 
-Pour les détails de calcul voir [BJ.pdf](https://github.com/Raphael-vnt/Blackjack_monte-carlo/blob/main/BJ.pdf)
+Pour les détails de la résolution analytique voir [BJ.pdf](https://github.com/Raphael-vnt/Blackjack_monte-carlo/blob/main/BJ.pdf)
 
 
 ### Extrait de la résolution du sytème issu d'un Processus de Decision Markovien homogène :
