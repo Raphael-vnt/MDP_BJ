@@ -36,11 +36,10 @@ Plusieurs calculs d'estimateurs sont effectués pour confronter les résultats t
 \pi \text{ une politique}, \quad \alpha \in \mathbb{R}_+ \text{ une mise constante}, \quad a \in \mathbb{R}_+^* \text{ un capital de départ}, \quad b \in \mathbb{R}_+^* \text{ un objectif de gain}
 ```
 
-Quelle est la probabilité de ruine ou de réussite du joueur ?
-
-
-<img src="monte_carlo_simulation_files/comparaison_3d_et.gif" width="600"/>
-
+Probabilité de ruine Vs Probabilité de réussite selon mise et objectif
 <img src="monte_carlo_simulation_files/probabilite_ruine_double.gif" width="600"/>
+
+Esperance de Gain selon mise et objectif
+<img src="monte_carlo_simulation_files/comparaison_3d_et.gif" width="600"/>
 
     
